@@ -62,5 +62,7 @@ EOF
 
 chmod +x boot.sh
 
+export PATH=/app/php/bin:$PATH
+
 # clean the cache
 rm -rf $CACHE_DIR
